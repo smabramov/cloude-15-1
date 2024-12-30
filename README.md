@@ -334,7 +334,7 @@ yandex_compute_instance.nat-instance: Creation complete after 1m15s [id=fhmom52h
 
 Apply complete! Resources: 4 added, 0 changed, 0 destroyed.
 ```
-![cloud]()
+![cloud](https://github.com/smabramov/cloude-15-1/blob/04fc3c4d3ef7efe1a6f0e45e4d77bde66b302ea1/png/cloud.png)
 
 Подключаюсь по ssh и проверяю доступ к интернету:
 
@@ -373,6 +373,8 @@ rtt min/avg/max/mdev = 3.507/3.657/3.873/0.156 ms
 ```
 
 Дополняю main.tf новыми элементами и применяю:
+
+[main.tf](https://github.com/smabramov/cloude-15-1/blob/04fc3c4d3ef7efe1a6f0e45e4d77bde66b302ea1/src/main.tf)
 
 ```
 serg@debian:~/Загрузки/1$ terraform apply
@@ -507,7 +509,7 @@ yandex_compute_instance.vm-2[0]: Creation complete after 47s [id=fhmvsa3630esd3b
 
 Apply complete! Resources: 3 added, 0 changed, 0 destroyed.
 ```
-1[cloud1]()
+1[cloud1](https://github.com/smabramov/cloude-15-1/blob/04fc3c4d3ef7efe1a6f0e45e4d77bde66b302ea1/png/cloud1.png)
 
 Подключаюсь к машине в приват сети через машину в сети паблик и проверяю, что не ней есть доступ к интернету.
 
