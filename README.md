@@ -509,7 +509,7 @@ yandex_compute_instance.vm-2[0]: Creation complete after 47s [id=fhmvsa3630esd3b
 
 Apply complete! Resources: 3 added, 0 changed, 0 destroyed.
 ```
-1[cloud1](https://github.com/smabramov/cloude-15-1/blob/04fc3c4d3ef7efe1a6f0e45e4d77bde66b302ea1/png/cloud1.png)
+![cloud1](https://github.com/smabramov/cloude-15-1/blob/04fc3c4d3ef7efe1a6f0e45e4d77bde66b302ea1/png/cloud1.png)
 
 Подключаюсь к машине в приват сети через машину в сети паблик и проверяю, что не ней есть доступ к интернету.
 
